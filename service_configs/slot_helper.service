@@ -1,0 +1,12 @@
+[Unit]
+Description=Service for slot
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/home/pi/hardware_services
+ExecStart=/usr/bin/sudo /usr/local/bin/gunicorn --bind 0.0.0.0:2000 --chdir /home/pi/hardware_services/slot_helper/ run:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

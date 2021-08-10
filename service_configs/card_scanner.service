@@ -1,0 +1,12 @@
+[Unit]
+Description=Service for card scanner
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/home/pi/hardware_services/card_scanner
+ExecStart=python3 /home/pi/hardware_services/card_scanner/main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
