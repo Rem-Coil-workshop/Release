@@ -1,5 +1,5 @@
 [Unit]
-Description=Service for slot
+Description=Service for open slot
 After=network.target
 
 [Service]
