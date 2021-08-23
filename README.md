@@ -68,6 +68,6 @@
 
     Запускает сервис *workshop_system_button*
 4. Добавляем сервисы в автозагрузку. Аналогично прошлому шагу для каждого сервиса выполняем команду:
-    * `sudo systemd enbale *service_name*`
+    * `sudo systemd enable *service_name*`
 
 ## Готово!
