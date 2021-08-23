@@ -35,7 +35,7 @@
 1. Установите gunicorn: 
     * `pip3 install gunicorn`
 2. Включение поддержки управлением пинами малины:
-    2. `sudo apt install python3-rpi.gpio`
+    * `sudo apt install python3-rpi.gpio`
 3. Установка Flask 
     * `pip3 install Flask`
 4. Остальные библиотеки:
